@@ -18,7 +18,7 @@ const GifExpertApp = () => {
         onNewCategory={onAddCategory}
         //   setCategories={setCategories} categories={categories}
       />
-      <button onClick={onAddCategory}>Agregar categoria</button>
+
       <ol>
         {categories.map((category) => (
           <GifGrid key={category} category={category} />
